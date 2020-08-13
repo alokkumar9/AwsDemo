@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'TestProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'django',
-        'PASSWORD': 'django',
-        'HOST': '127.0.0.1',
+        'NAME': 'test_project_db',
+        'USER': 'django_aws_demo',
+        'PASSWORD': 'myricha10',
+        'HOST': 'django-aws-demo.cbe2eebfbuil.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
